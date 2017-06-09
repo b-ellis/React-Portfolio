@@ -1,0 +1,288 @@
+body {
+  margin: 0px;
+  background: linear-gradient(to bottom right, #8e8e8e, #dddddd);
+}
+.header {
+  margin: 0px;
+  position: fixed;
+  background-color: rgba(157, 157, 157, 0.5);
+  background: linear-gradient(to top left, #8e8e8e, #dddddd);
+  top: 0px;
+  width: 100%;
+  opacity: 0.69;
+  z-index: 99;
+}
+.header .header-container {
+  position: initial;
+  height: 100%;
+}
+.header .header-container div {
+  cursor: pointer;
+  padding: 17px;
+  padding-left: 3.3em;
+  width: 20%;
+}
+.header .header-container div .initals {
+  font-family: 'Raleway', sans-serif;
+  text-transform: lowercase;
+  letter-spacing: -7px;
+  margin: 0px;
+  font-size: 1.85em;
+  color: #1e1e1e;
+}
+.header .header-container div .initals .e {
+  color: #420000;
+}
+.header .header-container div .name {
+  left: 3.3rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: lowercase;
+  font-size: 1.85em;
+  margin: 0px;
+  color: #1e1e1e;
+}
+.header .header-container div .name .lname {
+  color: #420000;
+}
+.navbar {
+  display: -webkit-flex;
+  justify-content: space-around;
+  padding: .75em;
+}
+.introduction {
+  text-align: center;
+  padding: 11.5rem 6.5rem;
+  height: 16rem;
+}
+.introduction .container {
+  max-width: 70%;
+  min-width: 50%;
+  width: 70%;
+  margin: auto;
+}
+.introduction .container .who-container h1 {
+  margin-bottom: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #420000;
+  font-size: 5em;
+  opacity: .7;
+}
+.introduction div {
+  position: relative;
+  top: -1em;
+  max-width: 70%;
+  min-width: 50%;
+  width: 70%;
+  margin: auto;
+}
+.introduction div .description-container h1 {
+  margin: auto;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #420000;
+  font-size: 36px;
+}
+.about-me {
+  text-align: center;
+  padding: 6.5rem 3.5rem;
+}
+.about-me .about-me-container {
+  max-width: 70%;
+  min-width: 50%;
+  width: 70%;
+  margin: auto;
+}
+.about-me .about-me-container .info-me {
+  margin-bottom: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #420000;
+  font-size: 5em;
+  opacity: .7;
+}
+.about-me .my-info {
+  max-width: 70%;
+  min-width: 50%;
+  width: 70%;
+  margin: auto;
+}
+.about-me .my-info p {
+  margin: auto;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #420000;
+  text-transform: lowercase;
+}
+.about-me .my-info p a {
+  text-decoration: none;
+}
+.about-me .my-info .fun {
+  padding-top: 4em;
+}
+.projects-title h1 {
+  text-transform: lowercase;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+  color: #420000;
+  font-size: 5em;
+  opacity: .7;
+}
+.musician h4 {
+  text-align: center;
+  text-transform: lowercase;
+  font-family: 'Raleway', sans-serif;
+  color: #420000;
+  font-size: xx-large;
+}
+.musician .musician-group {
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+.musician div {
+  text-align: center;
+}
+.musician div p {
+  text-transform: lowercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #420000;
+  font-weight: 100;
+  width: 65%;
+  margin: auto;
+  padding: 2em;
+}
+.musician div a {
+  text-transform: lowercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #420000;
+  padding: 1rem;
+}
+.musician div ul {
+  padding: 2em;
+  list-style: none;
+  text-transform: lowercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #420000;
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  margin: auto;
+}
+.jam {
+  text-align: center;
+}
+.jam h4 {
+  text-transform: lowercase;
+  font-family: 'Raleway', sans-serif;
+  color: #420000;
+  font-size: xx-large;
+  text-align: center;
+}
+.jam .jam-image {
+  width: 75%;
+  padding-right: 4em;
+}
+.jam div {
+  text-align: center;
+}
+.jam div p {
+  text-transform: lowercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #420000;
+  font-weight: 100;
+  width: 65%;
+  margin: auto;
+  padding: 2em;
+}
+.jam div a {
+  text-transform: lowercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #420000;
+  padding: 1rem;
+}
+.jam div ul {
+  padding: 2em;
+  list-style: none;
+  text-transform: lowercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #420000;
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  margin: auto;
+}
+.tabs {
+  text-align: center;
+}
+.tabs h4 {
+  text-transform: lowercase;
+  font-family: 'Raleway', sans-serif;
+  color: #420000;
+  font-size: xx-large;
+  text-align: center;
+}
+.tabs .tabs-image {
+  padding-left: 2.5em;
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+.tabs div {
+  text-align: center;
+}
+.tabs div p {
+  text-transform: lowercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #420000;
+  font-weight: 100;
+  width: 65%;
+  margin: auto;
+  padding: 2em;
+}
+.tabs div a {
+  text-transform: lowercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #420000;
+  padding: 1rem;
+}
+.tabs div ul {
+  padding: 2em;
+  list-style: none;
+  text-transform: lowercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #420000;
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  margin: auto;
+}
+@media only screen and (min-width: 60em) {
+  .musician {
+    display: block;
+  }
+  .musician .musician-image {
+    display: none;
+    width: 15%;
+    position: relative;
+    left: 39em;
+    bottom: 14em;
+    z-index: 0;
+    transform: rotate(10deg);
+  }
+  .musician .musician-mac {
+    display: none;
+    width: 70%;
+    margin: auto;
+  }
+  .musician .musician-group {
+    display: block;
+    width: 60%;
+    margin: auto;
+  }
+  .musician div {
+    padding-top: 3rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+}
