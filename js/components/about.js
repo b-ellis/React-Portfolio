@@ -8,10 +8,12 @@ class About extends React.Component{
 					<h1 className="info-me"> about me </h1>
 				</div>
 				<div className="my-info">
-					<div className="hexa">
-      					<div className="hex1">
-       						<div className="hex2">
-								<img className='me' src={require('../../images/portfolio_photo.jpg')} />
+					<div className='pic-wrapper'>
+						<div className="hexa">
+	      					<div className="hex1">
+	       						<div className="hex2">
+									<img className='me' src={require('../../images/portfolio_photo.jpg')} />
+								</div>
 							</div>
 						</div>
 					</div>

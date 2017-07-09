@@ -83,12 +83,12 @@ body{
     div{
     	position: relative;
     	top: -1em;
-    	max-width: 70%;
-	    min-width: 50%;
-	    width: 70%;
 	    margin: auto;
+	    width: 45%;
 
 	    .description-container{
+	    	width: 65%;
+
 	    	h1{
 				margin: auto;
 				text-align: center;
@@ -102,11 +102,8 @@ body{
 
 .about-me{
 	text-align: center;
-    padding: 0rem 3.5rem 6.5rem 3.5rem;
 
 	.about-me-container{
-		max-width: 80%;
-		min-width: 50%;
 		width: 80%;
 		margin: auto;
 
@@ -120,8 +117,6 @@ body{
 	}
 
 	.my-info{
-		max-width: 80%;
-		min-width: 50%;
 		width: 80%;
 		margin: auto;
     	margin-top: 3rem;
@@ -392,9 +387,13 @@ footer{
 
 @media only screen and (min-width: 60em){
 
+	.introduction{
+		.description-container{
+			width: 45%
+		}
+	}
+
 	.about-me{
-		text-align: center;
-	    padding: 0rem 3.5rem 6.5rem 3.5rem;
 
 		.about-me-container{
 			max-width: 80%;
@@ -412,12 +411,17 @@ footer{
 		}
 
 		.my-info{
-			max-width: 80%;
-			min-width: 50%;
-			width: 80%;
-			margin: auto;
+			width: 100%;
 			display: -webkit-inline-box;
-	    	margin-top: 3rem;
+
+			.pic-wrapper{
+				position: relative;
+				left: 2rem;
+			}
+
+			div{
+				width: 50%;
+			}
 
 			.hexa, .hexa div {
 			  margin: 0 auto;
@@ -430,7 +434,7 @@ footer{
 			  width: 325px;
 			  height: 230px;
 			  display: -webkit-inline-box;
-	    	  margin-top: 3.3rem;
+	    	  margin-top: 3rem;
 			}
 			.hexa div {
 			  width: 100%;
@@ -452,9 +456,10 @@ footer{
 
 			.p-container{
 				display: block;
-				width: 55%;
+				width: 50%;
 				margin-top: 3rem;
-				margin-left: 4rem;
+				position: relative;
+				right: 4rem;
 
 				p{
 					margin: auto;
@@ -462,6 +467,7 @@ footer{
 					font-family: 'Open Sans', sans-serif;
 					color: #420000;
 					text-transform: lowercase;
+					width: 80%;
 
 					a{
 						text-decoration: none;

@@ -70,10 +70,11 @@ body {
 .introduction div {
   position: relative;
   top: -1em;
-  max-width: 70%;
-  min-width: 50%;
-  width: 70%;
   margin: auto;
+  width: 45%;
+}
+.introduction div .description-container {
+  width: 65%;
 }
 .introduction div .description-container h1 {
   margin: auto;
@@ -84,11 +85,8 @@ body {
 }
 .about-me {
   text-align: center;
-  padding: 0rem 3.5rem 6.5rem 3.5rem;
 }
 .about-me .about-me-container {
-  max-width: 80%;
-  min-width: 50%;
   width: 80%;
   margin: auto;
 }
@@ -100,8 +98,6 @@ body {
   opacity: .7;
 }
 .about-me .my-info {
-  max-width: 80%;
-  min-width: 50%;
   width: 80%;
   margin: auto;
   margin-top: 3rem;
@@ -312,9 +308,8 @@ footer div ul li a span {
   color: #420000;
 }
 @media only screen and (min-width: 60em) {
-  .about-me {
-    text-align: center;
-    padding: 0rem 3.5rem 6.5rem 3.5rem;
+  .introduction .description-container {
+    width: 45%;
   }
   .about-me .about-me-container {
     max-width: 80%;
@@ -330,12 +325,15 @@ footer div ul li a span {
     opacity: .7;
   }
   .about-me .my-info {
-    max-width: 80%;
-    min-width: 50%;
-    width: 80%;
-    margin: auto;
+    width: 100%;
     display: -webkit-inline-box;
-    margin-top: 3rem;
+  }
+  .about-me .my-info .pic-wrapper {
+    position: relative;
+    left: 2rem;
+  }
+  .about-me .my-info div {
+    width: 50%;
   }
   .about-me .my-info .hexa,
   .about-me .my-info .hexa div {
@@ -349,7 +347,7 @@ footer div ul li a span {
     width: 325px;
     height: 230px;
     display: -webkit-inline-box;
-    margin-top: 3.3rem;
+    margin-top: 3rem;
   }
   .about-me .my-info .hexa div {
     width: 100%;
@@ -369,9 +367,10 @@ footer div ul li a span {
   }
   .about-me .my-info .p-container {
     display: block;
-    width: 55%;
+    width: 50%;
     margin-top: 3rem;
-    margin-left: 4rem;
+    position: relative;
+    right: 4rem;
   }
   .about-me .my-info .p-container p {
     margin: auto;
@@ -379,6 +378,7 @@ footer div ul li a span {
     font-family: 'Open Sans', sans-serif;
     color: #420000;
     text-transform: lowercase;
+    width: 80%;
   }
   .about-me .my-info .p-container p a {
     text-decoration: none;
