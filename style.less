@@ -102,12 +102,12 @@ body{
 
 .about-me{
 	text-align: center;
-    padding: 6.5rem 3.5rem;
+    padding: 0rem 3.5rem 6.5rem 3.5rem;
 
 	.about-me-container{
-		max-width: 70%;
+		max-width: 80%;
 		min-width: 50%;
-		width: 70%;
+		width: 80%;
 		margin: auto;
 
 		.info-me{
@@ -120,25 +120,61 @@ body{
 	}
 
 	.my-info{
-		max-width: 70%;
+		max-width: 80%;
 		min-width: 50%;
-		width: 70%;
+		width: 80%;
 		margin: auto;
+    	margin-top: 3rem;
 
-		p{
-			margin: auto;
-			text-align: center;
-			font-family: 'Open Sans', sans-serif;
-			color: #420000;
-			text-transform: lowercase;
+		.hexa, .hexa div {
+		  margin: 0 auto;
+		  transform-origin: 50% 50%;
+		  overflow: hidden;
+		  width: 300px;
+		  height: 300px;
+		}
+		.hexa {
+		  width: 325px;
+		  height: 230px;
+		  display: -webkit-inline-box;
+    	  margin-top: 4rem;
+		}
+		.hexa div {
+		  width: 100%;
+		  height: 100%;
+		}
+		.hexa {
+		  transform: rotate(120deg);
+		}
+		.hex1 {
+		  transform: rotate(-60deg);
+		}
+		.hex2 {
+		  transform: rotate(-60deg);
 
-			a{
-				text-decoration: none;
-			}	
+		  	.me{
+		  		width: 100%
+		  	}
 		}
 
-		.fun{
-			padding-top: 4em;
+		.p-container{
+			margin-top: 3rem;
+
+			p{
+				margin: auto;
+				text-align: center;
+				font-family: 'Open Sans', sans-serif;
+				color: #420000;
+				text-transform: lowercase;
+
+				a{
+					text-decoration: none;
+				}	
+			}
+
+			.fun{
+				padding-top: 4em;
+			}
 		}
 	}
 }
@@ -324,7 +360,121 @@ body{
     }
 }
 
+footer{
+	text-align: center;
+
+	div{
+
+		h4{
+			font-family: 'Raleway', sans-serif;
+   			color: #420000;
+		}
+
+		ul{
+			list-style: none;
+			display: flex;
+			justify-content: center;
+			padding: 0px;
+
+			li{
+				margin: 1rem;
+				font-size: 1.3rem;
+
+				a{
+					span{
+						color: #420000;
+					}
+				}
+			}
+		}
+	}
+}
+
 @media only screen and (min-width: 60em){
+
+	.about-me{
+		text-align: center;
+	    padding: 0rem 3.5rem 6.5rem 3.5rem;
+
+		.about-me-container{
+			max-width: 80%;
+			min-width: 50%;
+			width: 80%;
+			margin: auto;
+
+			.info-me{
+				margin-bottom: 0;
+			    font-family: 'Raleway', sans-serif;
+			    color: #420000;
+			    font-size: 5em;
+			    opacity: .7;
+			}
+		}
+
+		.my-info{
+			max-width: 80%;
+			min-width: 50%;
+			width: 80%;
+			margin: auto;
+			display: -webkit-inline-box;
+	    	margin-top: 3rem;
+
+			.hexa, .hexa div {
+			  margin: 0 auto;
+			  transform-origin: 50% 50%;
+			  overflow: hidden;
+			  width: 300px;
+			  height: 300px;
+			}
+			.hexa {
+			  width: 325px;
+			  height: 230px;
+			  display: -webkit-inline-box;
+	    	  margin-top: 4rem;
+			}
+			.hexa div {
+			  width: 100%;
+			  height: 100%;
+			}
+			.hexa {
+			  transform: rotate(120deg);
+			}
+			.hex1 {
+			  transform: rotate(-60deg);
+			}
+			.hex2 {
+			  transform: rotate(-60deg);
+
+			  	.me{
+			  		width: 100%
+			  	}
+			}
+
+			.p-container{
+				display: block;
+				width: 55%;
+				margin-top: 3rem;
+				margin-left: 4rem;
+
+				p{
+					margin: auto;
+					text-align: center;
+					font-family: 'Open Sans', sans-serif;
+					color: #420000;
+					text-transform: lowercase;
+
+					a{
+						text-decoration: none;
+					}	
+				}
+
+				.fun{
+					padding-top: 4em;
+				}
+			}
+		}
+	}
+
 	.musician{
 		display: block;
 

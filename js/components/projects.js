@@ -12,8 +12,8 @@ class Projects extends React.Component{
 					<h1>Projects</h1>
 				</div>
 				<Musician />
-				<Jam />
 				<Tabs />
+				<Jam />
 			</div>
 		)
 	}

@@ -11,8 +11,8 @@ class Musician extends React.Component{
 				<div>
 					<p>A Fullstack project, to help discover related artists from your favorite artist and help buy their music and
 					merchandise directly from the artist.</p>
-					<a href='#'>Site</a>
-					<a href='#'>Code</a>
+					<a target='_blank' href='https://thinkfulcapstone.herokuapp.com/'>Site</a>
+					<a target='_blank' href='https://github.com/b-ellis/Fullstack-capstone'>Code</a>
 					<ul>
 						<li>React/Redux | </li>
 						<li>Express | </li>

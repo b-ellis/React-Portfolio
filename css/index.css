@@ -84,12 +84,12 @@ body {
 }
 .about-me {
   text-align: center;
-  padding: 6.5rem 3.5rem;
+  padding: 0rem 3.5rem 6.5rem 3.5rem;
 }
 .about-me .about-me-container {
-  max-width: 70%;
+  max-width: 80%;
   min-width: 50%;
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 .about-me .about-me-container .info-me {
@@ -100,22 +100,56 @@ body {
   opacity: .7;
 }
 .about-me .my-info {
-  max-width: 70%;
+  max-width: 80%;
   min-width: 50%;
-  width: 70%;
+  width: 80%;
   margin: auto;
+  margin-top: 3rem;
 }
-.about-me .my-info p {
+.about-me .my-info .hexa,
+.about-me .my-info .hexa div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+.about-me .my-info .hexa {
+  width: 325px;
+  height: 230px;
+  display: -webkit-inline-box;
+  margin-top: 4rem;
+}
+.about-me .my-info .hexa div {
+  width: 100%;
+  height: 100%;
+}
+.about-me .my-info .hexa {
+  transform: rotate(120deg);
+}
+.about-me .my-info .hex1 {
+  transform: rotate(-60deg);
+}
+.about-me .my-info .hex2 {
+  transform: rotate(-60deg);
+}
+.about-me .my-info .hex2 .me {
+  width: 100%;
+}
+.about-me .my-info .p-container {
+  margin-top: 3rem;
+}
+.about-me .my-info .p-container p {
   margin: auto;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #420000;
   text-transform: lowercase;
 }
-.about-me .my-info p a {
+.about-me .my-info .p-container p a {
   text-decoration: none;
 }
-.about-me .my-info .fun {
+.about-me .my-info .p-container .fun {
   padding-top: 4em;
 }
 .projects-title h1 {
@@ -257,7 +291,101 @@ body {
   width: 65%;
   margin: auto;
 }
+footer {
+  text-align: center;
+}
+footer div h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #420000;
+}
+footer div ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+footer div ul li {
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+footer div ul li a span {
+  color: #420000;
+}
 @media only screen and (min-width: 60em) {
+  .about-me {
+    text-align: center;
+    padding: 0rem 3.5rem 6.5rem 3.5rem;
+  }
+  .about-me .about-me-container {
+    max-width: 80%;
+    min-width: 50%;
+    width: 80%;
+    margin: auto;
+  }
+  .about-me .about-me-container .info-me {
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #420000;
+    font-size: 5em;
+    opacity: .7;
+  }
+  .about-me .my-info {
+    max-width: 80%;
+    min-width: 50%;
+    width: 80%;
+    margin: auto;
+    display: -webkit-inline-box;
+    margin-top: 3rem;
+  }
+  .about-me .my-info .hexa,
+  .about-me .my-info .hexa div {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+  }
+  .about-me .my-info .hexa {
+    width: 325px;
+    height: 230px;
+    display: -webkit-inline-box;
+    margin-top: 4rem;
+  }
+  .about-me .my-info .hexa div {
+    width: 100%;
+    height: 100%;
+  }
+  .about-me .my-info .hexa {
+    transform: rotate(120deg);
+  }
+  .about-me .my-info .hex1 {
+    transform: rotate(-60deg);
+  }
+  .about-me .my-info .hex2 {
+    transform: rotate(-60deg);
+  }
+  .about-me .my-info .hex2 .me {
+    width: 100%;
+  }
+  .about-me .my-info .p-container {
+    display: block;
+    width: 55%;
+    margin-top: 3rem;
+    margin-left: 4rem;
+  }
+  .about-me .my-info .p-container p {
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #420000;
+    text-transform: lowercase;
+  }
+  .about-me .my-info .p-container p a {
+    text-decoration: none;
+  }
+  .about-me .my-info .p-container .fun {
+    padding-top: 4em;
+  }
   .musician {
     display: block;
   }
