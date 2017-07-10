@@ -74,7 +74,7 @@ body{
 				margin-bottom: 0;
 				font-family: 'Raleway', sans-serif;
 				color: #420000;
-				font-size: 5em;
+				font-size: 4em;
 				opacity: .7;
     		}
     	}
@@ -84,7 +84,6 @@ body{
     	position: relative;
     	top: -1em;
 	    margin: auto;
-	    width: 45%;
 
 	    .description-container{
 	    	width: 65%;
@@ -94,7 +93,7 @@ body{
 				text-align: center;
 				font-family: 'Raleway', sans-serif;
 				color: #420000;
-				font-size: 36px;
+				font-size: 2em;
 	    	}
 	    }
     }
@@ -111,7 +110,7 @@ body{
 			margin-bottom: 0;
 		    font-family: 'Raleway', sans-serif;
 		    color: #420000;
-		    font-size: 5em;
+		    font-size: 4em;
 		    opacity: .7;
 		}
 	}
@@ -183,7 +182,7 @@ body{
 	    margin: 0;
 	    padding: 1em;
 	    color: #420000;
-	    font-size: 5em;
+	    font-size: 4em;
 	    opacity: .7;
 	}
 }
@@ -233,11 +232,11 @@ body{
 		    color: #420000;
 		    display: flex;
 		    justify-content: center;
-		    width: 65%;
+		    width: 75%;
     		margin: auto;
 
 		    li{
-
+		    	font-size: small;
 		    }
 	    }
 	}
@@ -288,18 +287,18 @@ body{
 		    color: #420000;
 		    display: flex;
 		    justify-content: center;
-		    width: 65%;
+		    width: 75%;
     		margin: auto;
 
 		    li{
-
+		    	font-size: small;
 		    }
 	    }
     }
 }
 
 .tabs{
-	    text-align: center;
+	text-align: center;
 
 	h4{
     	text-transform: lowercase;
@@ -345,11 +344,11 @@ body{
 		    color: #420000;
 		    display: flex;
 		    justify-content: center;
-		    width: 65%;
+		    width: 75%;
     		margin: auto;
 
 		    li{
-
+		    	font-size: small;
 		    }
 	    }
     }
@@ -388,8 +387,18 @@ footer{
 @media only screen and (min-width: 60em){
 
 	.introduction{
-		.description-container{
-			width: 45%
+		.container{
+			.who-container{
+				h1{
+					font-size: 5em;
+				}
+			}
+			.description-container{
+				width: 45%!important;
+				h1{
+					font-size: 36px;
+				}
+			}
 		}
 	}
 
@@ -481,6 +490,18 @@ footer{
 		}
 	}
 
+	.projects{
+		.project-title{
+			h1{
+				font-size: 5em!impotant;
+			}
+		}
+
+		ul{
+			width: 65%;
+		}
+	}
+
 	.musician{
 		display: block;
 
@@ -509,6 +530,56 @@ footer{
 		    padding-top: 3rem;
 		    padding-right: 1rem;
 		    text-align: center;			
+		}
+	}
+}
+
+@media only screen and (max-width: 40em){
+	.introduction{
+		text-align: center;
+		padding: 11.5rem 0;
+		height: 16rem;
+
+		.container{
+			width: 90%;
+    		margin: auto;
+
+    		.who-conatiner{
+				position: relative;
+				top: -1em;
+				margin: auto;
+				width: 100%;
+
+				h1{
+					font-size: 5em
+				}
+    		}
+
+    		.description-container{
+    			width: 100%;
+
+    			h1{
+    				font-size: 36px;
+    			}
+    		}
+		}
+	}
+
+	.about-me{
+		.info-me{
+			font-size: 5em;
+		}
+	}
+
+	.projects{
+		.project-title{
+			h1{
+				font-size: 5em!impotant;
+			}
+		}
+
+		ul{
+			width: 65%;
 		}
 	}
 }

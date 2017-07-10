@@ -7,14 +7,14 @@ import Tabs from './tabs';
 class Projects extends React.Component{
 	render(){
 		return(
-			<div>
+			<section className='projects'>
 				<div className='projects-title'>
 					<h1>Projects</h1>
 				</div>
 				<Musician />
 				<Tabs />
 				<Jam />
-			</div>
+			</section>
 		)
 	}
 }

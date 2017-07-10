@@ -64,14 +64,13 @@ body {
   margin-bottom: 0;
   font-family: 'Raleway', sans-serif;
   color: #420000;
-  font-size: 5em;
+  font-size: 4em;
   opacity: .7;
 }
 .introduction div {
   position: relative;
   top: -1em;
   margin: auto;
-  width: 45%;
 }
 .introduction div .description-container {
   width: 65%;
@@ -81,7 +80,7 @@ body {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #420000;
-  font-size: 36px;
+  font-size: 2em;
 }
 .about-me {
   text-align: center;
@@ -94,7 +93,7 @@ body {
   margin-bottom: 0;
   font-family: 'Raleway', sans-serif;
   color: #420000;
-  font-size: 5em;
+  font-size: 4em;
   opacity: .7;
 }
 .about-me .my-info {
@@ -155,7 +154,7 @@ body {
   margin: 0;
   padding: 1em;
   color: #420000;
-  font-size: 5em;
+  font-size: 4em;
   opacity: .7;
 }
 .musician h4 {
@@ -196,8 +195,11 @@ body {
   color: #420000;
   display: flex;
   justify-content: center;
-  width: 65%;
+  width: 75%;
   margin: auto;
+}
+.musician div ul li {
+  font-size: small;
 }
 .jam {
   text-align: center;
@@ -239,8 +241,11 @@ body {
   color: #420000;
   display: flex;
   justify-content: center;
-  width: 65%;
+  width: 75%;
   margin: auto;
+}
+.jam div ul li {
+  font-size: small;
 }
 .tabs {
   text-align: center;
@@ -284,8 +289,11 @@ body {
   color: #420000;
   display: flex;
   justify-content: center;
-  width: 65%;
+  width: 75%;
   margin: auto;
+}
+.tabs div ul li {
+  font-size: small;
 }
 footer {
   text-align: center;
@@ -308,8 +316,14 @@ footer div ul li a span {
   color: #420000;
 }
 @media only screen and (min-width: 60em) {
-  .introduction .description-container {
-    width: 45%;
+  .introduction .container .who-container h1 {
+    font-size: 5em;
+  }
+  .introduction .container .description-container {
+    width: 45%!important;
+  }
+  .introduction .container .description-container h1 {
+    font-size: 36px;
   }
   .about-me .about-me-container {
     max-width: 80%;
@@ -386,6 +400,12 @@ footer div ul li a span {
   .about-me .my-info .p-container .fun {
     padding-top: 4em;
   }
+  .projects .project-title h1 {
+    font-size: 5em!impotant;
+  }
+  .projects ul {
+    width: 65%;
+  }
   .musician {
     display: block;
   }
@@ -412,5 +432,40 @@ footer div ul li a span {
     padding-top: 3rem;
     padding-right: 1rem;
     text-align: center;
+  }
+}
+@media only screen and (max-width: 40em) {
+  .introduction {
+    text-align: center;
+    padding: 11.5rem 0;
+    height: 16rem;
+  }
+  .introduction .container {
+    width: 90%;
+    margin: auto;
+  }
+  .introduction .container .who-conatiner {
+    position: relative;
+    top: -1em;
+    margin: auto;
+    width: 100%;
+  }
+  .introduction .container .who-conatiner h1 {
+    font-size: 5em;
+  }
+  .introduction .container .description-container {
+    width: 100%;
+  }
+  .introduction .container .description-container h1 {
+    font-size: 36px;
+  }
+  .about-me .info-me {
+    font-size: 5em;
+  }
+  .projects .project-title h1 {
+    font-size: 5em!impotant;
+  }
+  .projects ul {
+    width: 65%;
   }
 }
