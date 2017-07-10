@@ -9,8 +9,8 @@ class Musician extends React.Component{
 					<img className='musician-group' src={require('../../images/musician-group.png')} />
 				</div>
 				<div>
-					<p>A Fullstack project, to help discover related artists from your favorite artist and help buy their music and
-					merchandise directly from the artist.</p>
+					<p>A Fullstack project, to help discover related artists from your favorite artist and guide you to their official 
+					website to buy music and merchandise from the artist.</p>
 					<a target='_blank' href='https://thinkfulcapstone.herokuapp.com/'>Site</a>
 					<a target='_blank' href='https://github.com/b-ellis/Fullstack-capstone'>Code</a>
 					<ul>
