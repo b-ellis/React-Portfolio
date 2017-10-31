@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Nav from './nav';
 
@@ -34,6 +35,7 @@ class Header extends React.Component{
 							<h1 className="initals">B <span className="e">E</span></h1>
 							<h1 className="name" style={{display:'none'}}>brad <span className="lname">ellis</span></h1>
 						</div>
+						<Link to={'/photos'}>Photos</Link>
 			  		</div>
 				</nav>
 			)
@@ -41,10 +43,13 @@ class Header extends React.Component{
 			return(
 				<nav className="header">
 			  		<div className="header-container">
+			  			<Link to={'/'}>
 						<div className="col-md-2" onClick={this.scrollToTop} onMouseEnter={this.changeInitals} onMouseLeave={this.changeName} style={{"cursor": "pointer"}}>
 							<h1 className="initals" style={{display:'none'}}>B <span className="e">E</span></h1>
 							<h1 className="name">brad <span className="lname">ellis</span></h1>
 						</div>
+						</Link>
+						<Link to={'/photos'}>Photos</Link>
 			  		</div>
 				</nav>
 			)
