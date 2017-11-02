@@ -11,18 +11,35 @@ body {
   width: 100%;
   opacity: 0.69;
   z-index: 99;
+  height: 4rem;
 }
 .header .header-container {
   position: initial;
   height: 100%;
+  display: -webkit-box;
+  width: 100%;
 }
-.header .header-container div {
+.header .header-container .menu-div {
+  padding-top: 22px;
+  width: 39%;
+  padding-right: 3.3em;
+  padding-left: 17px;
+}
+.header .header-container .menu-div .menu {
+  float: right;
+  font-size: 1.6em;
+  color: #420000;
   cursor: pointer;
+}
+.header .header-container .name-div {
   padding: 17px;
   padding-left: 3.3em;
+  width: 50%;
+}
+.header .header-container .name-div .wrapper {
   width: 20%;
 }
-.header .header-container div .initals {
+.header .header-container .name-div .initals {
   font-family: 'Raleway', sans-serif;
   text-transform: lowercase;
   letter-spacing: -7px;
@@ -30,10 +47,10 @@ body {
   font-size: 1.85em;
   color: #1e1e1e;
 }
-.header .header-container div .initals .e {
+.header .header-container .name-div .initals .e {
   color: #420000;
 }
-.header .header-container div .name {
+.header .header-container .name-div .name {
   left: 3.3rem;
   font-family: 'Raleway', sans-serif;
   text-transform: lowercase;
@@ -41,7 +58,7 @@ body {
   margin: 0px;
   color: #1e1e1e;
 }
-.header .header-container div .name .lname {
+.header .header-container .name-div .name .lname {
   color: #420000;
 }
 .navbar {

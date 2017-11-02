@@ -32,6 +32,7 @@ mongoose.promise = require('bluebird');
 const runServer = (callback) => {
 	mongoose.connect(config.DATABASE_URL, (err) => {
 		if(err && callback){
+			console.log(err)
 			return callback(err)
 		}
 
@@ -47,7 +48,7 @@ const runServer = (callback) => {
 if(require.main === module){
 	runServer((err) => {
 		if(err){
-			console.log(err)
+			console.log(err);
 		} else {
 			console.log('Server up and running');
 		}
