@@ -82,7 +82,10 @@ class Header extends React.Component{
 									<FontAwesome onClick={this.closeMenu} className='menu' name='bars' />
 									<ul>
 										<li>
-											<Link to={'/photos'}>Photos</Link>
+											<Link onClick={this.closeMenu} to={'/'}>Home</Link>
+										</li>
+										<li>
+											<Link onClick={this.closeMenu} to={'/photos'}>Photos</Link>
 										</li>
 									</ul>
 								</div>
