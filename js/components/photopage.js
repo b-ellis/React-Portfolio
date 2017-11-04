@@ -15,14 +15,14 @@ class PhotoPage extends React.Component{
 		const photoArray = this.props.state.photos;
 		if(this.props.state.photos != undefined){
 			for(let i = 0; i < photoArray.length; i++){
-				const img = <li key={i}><img src={photoArray[i]}/></li>;
+				const img = <li key={i} className='photos'><img className='photo-image' src={photoArray[i]}/></li>;
 				photos.push(img);
 			}
 		}
 		return(
-			<div>
-				<h1>photos</h1>
-				<ul>
+			<div className='photo-page'>
+				<h1 className='photo-title'>photos</h1>
+				<ul className='photo-list'>
 					{photos}
 				</ul>
 			</div>

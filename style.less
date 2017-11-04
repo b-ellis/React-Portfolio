@@ -32,6 +32,31 @@ body{
 				color: #420000;
 				cursor: pointer;
     		}
+
+    		.menu-list{
+				list-style: none;
+				margin-top: 2.5em;
+
+				.menu-item{
+					text-align: right;
+					text-transform: lowercase;
+					font-family: 'Raleway', sans-serif;
+					color: #420000;
+					text-decoration: none;
+					padding-top: 1em;
+
+					a{
+						text-decoration: none;
+						font-size: x-large;
+						text-align: left;
+						color: #420000;
+
+						&:hover{
+							text-shadow: 2px 3px 5px white;
+						}
+					}
+				}
+    		}
     	}
 
     	.name-div{
@@ -399,6 +424,37 @@ footer{
 						color: #420000;
 					}
 				}
+			}
+		}
+	}
+}
+
+.photo-page{
+	margin-top: 4rem;
+
+	.photo-title{
+		text-transform: lowercase;
+		font-family: 'Raleway', sans-serif;
+		text-align: center;
+		margin: 0;
+		padding: 1em;
+		color: #420000;
+		font-size: 4em;
+		opacity: .7;
+	}
+
+	.photo-list{
+		list-style: none;
+		text-align: center;
+		padding-left: 0px;
+
+		.photos{
+			display: -webkit-inline-box;
+			padding: .5em;
+
+			.photo-image{
+				box-shadow: 0.5em 0.5em 12px 8px rgba(0, 0, 0, 0.15);
+				border: 2em black;
 			}
 		}
 	}

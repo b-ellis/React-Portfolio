@@ -31,6 +31,27 @@ body {
   color: #420000;
   cursor: pointer;
 }
+.header .header-container .menu-div .menu-list {
+  list-style: none;
+  margin-top: 2.5em;
+}
+.header .header-container .menu-div .menu-list .menu-item {
+  text-align: right;
+  text-transform: lowercase;
+  font-family: 'Raleway', sans-serif;
+  color: #420000;
+  text-decoration: none;
+  padding-top: 1em;
+}
+.header .header-container .menu-div .menu-list .menu-item a {
+  text-decoration: none;
+  font-size: x-large;
+  text-align: left;
+  color: #420000;
+}
+.header .header-container .menu-div .menu-list .menu-item a:hover {
+  text-shadow: 2px 3px 5px white;
+}
 .header .header-container .name-div {
   padding: 17px;
   padding-left: 3.3em;
@@ -331,6 +352,32 @@ footer div ul li {
 }
 footer div ul li a span {
   color: #420000;
+}
+.photo-page {
+  margin-top: 4rem;
+}
+.photo-page .photo-title {
+  text-transform: lowercase;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+  color: #420000;
+  font-size: 4em;
+  opacity: .7;
+}
+.photo-page .photo-list {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+}
+.photo-page .photo-list .photos {
+  display: -webkit-inline-box;
+  padding: .5em;
+}
+.photo-page .photo-list .photos .photo-image {
+  box-shadow: 0.5em 0.5em 12px 8px rgba(0, 0, 0, 0.15);
+  border: 2em black;
 }
 @media only screen and (min-width: 60em) {
   .introduction .container .who-container h1 {

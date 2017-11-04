@@ -80,11 +80,11 @@ class Header extends React.Component{
 							return(
 								<div className='col-md-10 menu-div'>
 									<FontAwesome onClick={this.closeMenu} className='menu' name='bars' />
-									<ul>
-										<li>
+									<ul className='menu-list'>
+										<li className='menu-item'>
 											<Link onClick={this.closeMenu} to={'/'}>Home</Link>
 										</li>
-										<li>
+										<li className='menu-item'>
 											<Link onClick={this.closeMenu} to={'/photos'}>Photos</Link>
 										</li>
 									</ul>
