@@ -10,6 +10,7 @@ class Header extends React.Component{
 		this.state = {
 			name: 'initals',
 			menu: 'closed',
+			style: '4rem'
 		}
 		this.changeInitals = this.changeInitals.bind(this);
 		this.changeName = this.changeName.bind(this);
@@ -32,17 +33,19 @@ class Header extends React.Component{
 	}
 	openMenu(){
 		this.setState({
-			menu: 'opened'
+			menu: 'opened',
+			style: '11rem'
 		});
 	}
 	closeMenu(){
 		this.setState({
-			menu: 'closed'
+			menu: 'closed',
+			style: '4rem'
 		});
 	}
 	render(){
 		return(
-			<nav className='header'>
+			<nav style={{height: this.state.style}}className='header'>
 				<div className="header-container">
 					<div className='name-div'>
 						{(() => {

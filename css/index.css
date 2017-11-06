@@ -378,6 +378,27 @@ footer div ul li a span {
 .photo-page .photo-list .photos .photo-image {
   box-shadow: 0.5em 0.5em 12px 8px rgba(0, 0, 0, 0.15);
   border: 2em black;
+  width: 100%;
+}
+@media only screen and (max-width: 958px) {
+  .menu-div {
+    position: absolute;
+    left: 1.5em;
+    top: 0.1em;
+    width: 0px !important;
+    padding-right: 0px !important;
+  }
+  .menu-div .menu-list {
+    padding: 0px;
+    position: absolute;
+    left: -0.5rem;
+  }
+  .menu-div .menu-list .menu-item {
+    text-align: left !important;
+  }
+  .wrapper {
+    width: 60% !important;
+  }
 }
 @media only screen and (min-width: 60em) {
   .introduction .container .who-container h1 {
@@ -499,6 +520,24 @@ footer div ul li a span {
   }
 }
 @media only screen and (max-width: 40em) {
+  .menu-div {
+    position: absolute;
+    left: 1.5em;
+    top: 0.1em;
+    width: 0px !important;
+    padding-right: 0px !important;
+  }
+  .menu-div .menu-list {
+    padding: 0px;
+    position: absolute;
+    left: -0.5rem;
+  }
+  .menu-div .menu-list .menu-item {
+    text-align: left !important;
+  }
+  .wrapper {
+    width: 60% !important;
+  }
   .introduction {
     text-align: center;
     padding: 11.5rem 0;
